@@ -19,6 +19,7 @@
 		1D03B5FD17EA1E080067D035 /* NSData+MSTrivialCryptography.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03B5DD17EA0B0B0067D035 /* NSData+MSTrivialCryptography.m */; };
 		1D03B5FE17EA1E0D0067D035 /* NSData+MSHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D03B5E117EA0E830067D035 /* NSData+MSHMAC.m */; };
 		1D03B5FF17EA1E320067D035 /* MSBooster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4BF07D17A8FF30005080A2 /* MSBooster.framework */; };
+		1D222111182240F500A3113A /* MSBooster.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1D4BF07D17A8FF30005080A2 /* MSBooster.framework */; };
 		1D278D1917EB081B00FBDA36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5CBA1C17BD4900009D58E2 /* Foundation.framework */; };
 		1D278D1C17EB081B00FBDA36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D278D1B17EB081B00FBDA36 /* main.m */; };
 		1D278D2017EB081B00FBDA36 /* MSBooster_Profiling.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1D278D1F17EB081B00FBDA36 /* MSBooster_Profiling.1 */; };
@@ -103,6 +104,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		1D222110182240E800A3113A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1D222111182240F500A3113A /* MSBooster.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D278D1617EB081B00FBDA36 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -475,6 +486,7 @@
 				1D03B5E617EA1C060067D035 /* Sources */,
 				1D03B5E717EA1C060067D035 /* Frameworks */,
 				1D03B5E817EA1C060067D035 /* Resources */,
+				1D222110182240E800A3113A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -875,11 +887,13 @@
 		1D4BF0A617A8FF30005080A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "MSBooster/MSBooster-Info.plist";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -888,11 +902,13 @@
 		1D4BF0A717A8FF30005080A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "MSBooster/MSBooster-Info.plist";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
