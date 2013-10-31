@@ -1,5 +1,5 @@
 
-include ../GNUstep.make
+include GNUstep.make
 
 SUBPROJECTS := MSBooster
 

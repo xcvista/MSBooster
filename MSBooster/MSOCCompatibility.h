@@ -12,8 +12,8 @@
 #include <objc/runtime.h>
 #include <objc/message.h>
 
-#if __has_include(<objc/arc.h>)
-#   include <objc/arc.h>
+#if __has_include(<objc/objc-arc.h>)
+#   include <objc/objc-arc.h>
 #else // !__has_include(<objc/arc.h>)
 /**
  Retains an object.

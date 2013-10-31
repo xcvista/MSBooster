@@ -68,6 +68,11 @@
 		1D5CBA2C17BD4910009D58E2 /* MSStringConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4BF0C417A9165F005080A2 /* MSStringConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D5CBA2D17BD4910009D58E2 /* MSStringManipulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4BF0B417A8FFA8005080A2 /* MSStringManipulation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D5CBA2E17BD4910009D58E2 /* MSStringManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4BF0B517A8FFA8005080A2 /* MSStringManipulation.m */; };
+		1D92C9B51817B2CC00FAE1A4 /* module.map in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1D4BF0BA17A9051B005080A2 /* module.map */; };
+		1D92C9B81817B9CD00FAE1A4 /* NSScanner+MSLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D92C9B61817B9CD00FAE1A4 /* NSScanner+MSLexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D92C9B91817B9CD00FAE1A4 /* NSScanner+MSLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D92C9B61817B9CD00FAE1A4 /* NSScanner+MSLexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D92C9BA1817B9CD00FAE1A4 /* NSScanner+MSLexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D92C9B71817B9CD00FAE1A4 /* NSScanner+MSLexer.m */; };
+		1D92C9BB1817B9CD00FAE1A4 /* NSScanner+MSLexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D92C9B71817B9CD00FAE1A4 /* NSScanner+MSLexer.m */; };
 		1DD2AC8F1815195E000E9A0D /* NSArray+MSOrderedCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD2AC8D1815195E000E9A0D /* NSArray+MSOrderedCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DD2AC901815195E000E9A0D /* NSArray+MSOrderedCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD2AC8D1815195E000E9A0D /* NSArray+MSOrderedCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DD2AC911815195E000E9A0D /* NSArray+MSOrderedCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2AC8E1815195E000E9A0D /* NSArray+MSOrderedCollection.m */; };
@@ -115,6 +120,16 @@
 			dstSubfolderSpec = 1;
 			files = (
 				1D4BF0BD17A905F1005080A2 /* module.map in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D92C9B41817B2C200FAE1A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+				1D92C9B51817B2CC00FAE1A4 /* module.map in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +186,13 @@
 		1D5CBA1C17BD4900009D58E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D61211217BA06FD00C2AD14 /* GNUmakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = GNUmakefile; sourceTree = "<group>"; };
 		1D61211317BA073200C2AD14 /* GNUmakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = GNUmakefile; sourceTree = "<group>"; };
+		1D92C9A91817B10000FAE1A4 /* framework.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = framework.make; sourceTree = "<group>"; };
+		1D92C9AA1817B10000FAE1A4 /* GNUstep.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUstep.make; sourceTree = "<group>"; };
+		1D92C9AB1817B10000FAE1A4 /* tool.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tool.make; sourceTree = "<group>"; };
+		1D92C9AF1817B1BE00FAE1A4 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
+		1D92C9B11817B1D600FAE1A4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1D92C9B61817B9CD00FAE1A4 /* NSScanner+MSLexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner+MSLexer.h"; sourceTree = "<group>"; };
+		1D92C9B71817B9CD00FAE1A4 /* NSScanner+MSLexer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScanner+MSLexer.m"; sourceTree = "<group>"; };
 		1DD2AC8D1815195E000E9A0D /* NSArray+MSOrderedCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MSOrderedCollection.h"; sourceTree = "<group>"; };
 		1DD2AC8E1815195E000E9A0D /* NSArray+MSOrderedCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MSOrderedCollection.m"; sourceTree = "<group>"; };
 		1DD2AC9318151A1C000E9A0D /* NSSet+MSUniqueCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+MSUniqueCollection.h"; sourceTree = "<group>"; };
@@ -276,7 +298,9 @@
 		1D4BF07317A8FF30005080A2 = {
 			isa = PBXGroup;
 			children = (
-				1D61211217BA06FD00C2AD14 /* GNUmakefile */,
+				1D92C9AF1817B1BE00FAE1A4 /* LICENSE.md */,
+				1D92C9B11817B1D600FAE1A4 /* README.md */,
+				1D92C9A81817B0E800FAE1A4 /* Makefiles */,
 				1D4BF08617A8FF30005080A2 /* MSBooster */,
 				1D03B5ED17EA1C060067D035 /* MSBooster Tests */,
 				1D278D1A17EB081B00FBDA36 /* MSBooster Profiling */,
@@ -332,6 +356,8 @@
 				1D4BF0C417A9165F005080A2 /* MSStringConstant.h */,
 				1D4BF0B417A8FFA8005080A2 /* MSStringManipulation.h */,
 				1D4BF0B517A8FFA8005080A2 /* MSStringManipulation.m */,
+				1D92C9B61817B9CD00FAE1A4 /* NSScanner+MSLexer.h */,
+				1D92C9B71817B9CD00FAE1A4 /* NSScanner+MSLexer.m */,
 				1D4A9DD117BE7626002325B2 /* NSData+MSHashing.h */,
 				1D4A9DD217BE7626002325B2 /* NSData+MSHashing.m */,
 				1D03B5E017EA0E830067D035 /* NSData+MSHMAC.h */,
@@ -358,6 +384,17 @@
 				1D61211317BA073200C2AD14 /* GNUmakefile */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D92C9A81817B0E800FAE1A4 /* Makefiles */ = {
+			isa = PBXGroup;
+			children = (
+				1D92C9A91817B10000FAE1A4 /* framework.make */,
+				1D92C9AA1817B10000FAE1A4 /* GNUstep.make */,
+				1D92C9AB1817B10000FAE1A4 /* tool.make */,
+				1D61211217BA06FD00C2AD14 /* GNUmakefile */,
+			);
+			name = Makefiles;
 			sourceTree = "<group>";
 		};
 		1DD2AC8C1815192A000E9A0D /* Collection Protocols */ = {
@@ -395,6 +432,7 @@
 				1DD2AC8F1815195E000E9A0D /* NSArray+MSOrderedCollection.h in Headers */,
 				1D4BF0BF17A90653005080A2 /* MSBooster_Private.h in Headers */,
 				1D4A9DD317BE7626002325B2 /* NSData+MSHashing.h in Headers */,
+				1D92C9B81817B9CD00FAE1A4 /* NSScanner+MSLexer.h in Headers */,
 				1D03B5E217EA0E830067D035 /* NSData+MSHMAC.h in Headers */,
 				1D4BF0C517A9165F005080A2 /* MSStringConstant.h in Headers */,
 				1D4BF0C317A90712005080A2 /* MSOCCompatibility.h in Headers */,
@@ -419,6 +457,7 @@
 				1DD2AC901815195E000E9A0D /* NSArray+MSOrderedCollection.h in Headers */,
 				1D5CBA2817BD4910009D58E2 /* MSBooster.h in Headers */,
 				1D4A9DD417BE7626002325B2 /* NSData+MSHashing.h in Headers */,
+				1D92C9B91817B9CD00FAE1A4 /* NSScanner+MSLexer.h in Headers */,
 				1D5CBA2C17BD4910009D58E2 /* MSStringConstant.h in Headers */,
 				1D03B5E517EA17060067D035 /* NSData+MSTrivialCryptography.h in Headers */,
 				1D5CBA2D17BD4910009D58E2 /* MSStringManipulation.h in Headers */,
@@ -492,6 +531,7 @@
 				1D5CBA1517BD4900009D58E2 /* Frameworks */,
 				1D5CBA1617BD4900009D58E2 /* Headers */,
 				1D5CBA1717BD4900009D58E2 /* Resources */,
+				1D92C9B41817B2C200FAE1A4 /* CopyFiles */,
 				1D5CBA1817BD4900009D58E2 /* ShellScript */,
 				1D5CBA1917BD4900009D58E2 /* ShellScript */,
 			);
@@ -640,6 +680,7 @@
 				1DD2AC911815195E000E9A0D /* NSArray+MSOrderedCollection.m in Sources */,
 				1DD2AC9718151A1C000E9A0D /* NSSet+MSUniqueCollection.m in Sources */,
 				1DD2AC9D18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.m in Sources */,
+				1D92C9BA1817B9CD00FAE1A4 /* NSScanner+MSLexer.m in Sources */,
 				1D4A9DC817BE6EB9002325B2 /* NSArray+LinqExtensions.m in Sources */,
 				1D03B5DF17EA0B0B0067D035 /* NSData+MSTrivialCryptography.m in Sources */,
 				1D4BF0B717A8FFA8005080A2 /* MSStringManipulation.m in Sources */,
@@ -656,6 +697,7 @@
 				1D4A9DCD17BE6EB9002325B2 /* NSDictionary+LinqExtensions.m in Sources */,
 				1D4A9DD617BE7626002325B2 /* NSData+MSHashing.m in Sources */,
 				1D4A9DC917BE6EB9002325B2 /* NSArray+LinqExtensions.m in Sources */,
+				1D92C9BB1817B9CD00FAE1A4 /* NSScanner+MSLexer.m in Sources */,
 				1DD2AC921815195E000E9A0D /* NSArray+MSOrderedCollection.m in Sources */,
 				1DD2AC9818151A1C000E9A0D /* NSSet+MSUniqueCollection.m in Sources */,
 				1DD2ACA418151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.m in Sources */,

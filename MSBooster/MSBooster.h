@@ -6,16 +6,13 @@
 //  Copyright (c) 2013 muski. All rights reserved.
 //
 
-#ifndef MSBooster_h
-#define MSBooster_h
+#import <Foundation/Foundation.h>
 
-#include <MSBooster/MSCommon.h>
-#include <MSBooster/MSOCCompatibility.h>
-#include <MSBooster/MSStringConstant.h>
-#include <MSBooster/MSStringManipulation.h>
-
-#if __OBJC__
-
+#import <MSBooster/MSCommon.h>
+#import <MSBooster/MSOCCompatibility.h>
+#import <MSBooster/MSStringConstant.h>
+#import <MSBooster/MSStringManipulation.h>
+#import <MSBooster/NSScanner+MSLexer.h>
 #import <MSBooster/NSData+MSHashing.h>
 #import <MSBooster/NSData+MSHMAC.h>
 #import <MSBooster/NSData+MSCryptor.h>
@@ -27,7 +24,3 @@
 #import <MSBooster/NSSet+MSUniqueCollection.h>
 #import <MSBooster/NSDictionary+MSKeyValueCollection.h>
 #import <MSBooster/NSOrderedSet+MSCollectionProtocols.h>
-
-#endif
-
-#endif
