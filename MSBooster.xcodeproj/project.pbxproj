@@ -74,22 +74,6 @@
 		1D92C9B91817B9CD00FAE1A4 /* NSScanner+MSLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D92C9B61817B9CD00FAE1A4 /* NSScanner+MSLexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D92C9BA1817B9CD00FAE1A4 /* NSScanner+MSLexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D92C9B71817B9CD00FAE1A4 /* NSScanner+MSLexer.m */; };
 		1D92C9BB1817B9CD00FAE1A4 /* NSScanner+MSLexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D92C9B71817B9CD00FAE1A4 /* NSScanner+MSLexer.m */; };
-		1DD2AC8F1815195E000E9A0D /* NSArray+MSOrderedCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD2AC8D1815195E000E9A0D /* NSArray+MSOrderedCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DD2AC901815195E000E9A0D /* NSArray+MSOrderedCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD2AC8D1815195E000E9A0D /* NSArray+MSOrderedCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DD2AC911815195E000E9A0D /* NSArray+MSOrderedCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2AC8E1815195E000E9A0D /* NSArray+MSOrderedCollection.m */; };
-		1DD2AC921815195E000E9A0D /* NSArray+MSOrderedCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2AC8E1815195E000E9A0D /* NSArray+MSOrderedCollection.m */; };
-		1DD2AC9518151A1C000E9A0D /* NSSet+MSUniqueCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD2AC9318151A1C000E9A0D /* NSSet+MSUniqueCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DD2AC9618151A1C000E9A0D /* NSSet+MSUniqueCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD2AC9318151A1C000E9A0D /* NSSet+MSUniqueCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DD2AC9718151A1C000E9A0D /* NSSet+MSUniqueCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2AC9418151A1C000E9A0D /* NSSet+MSUniqueCollection.m */; };
-		1DD2AC9818151A1C000E9A0D /* NSSet+MSUniqueCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2AC9418151A1C000E9A0D /* NSSet+MSUniqueCollection.m */; };
-		1DD2AC9B18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD2AC9918151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DD2AC9C18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD2AC9918151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DD2AC9D18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2AC9A18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.m */; };
-		1DD2AC9E18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2AC9A18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.m */; };
-		1DD2ACA118151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD2AC9F18151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DD2ACA218151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD2AC9F18151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DD2ACA318151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2ACA018151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.m */; };
-		1DD2ACA418151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2ACA018151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.m */; };
 		1DD48BFC17ECB50400852874 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4A9DDA17BE8304002325B2 /* libcrypto.dylib */; };
 /* End PBXBuildFile section */
 
@@ -204,14 +188,6 @@
 		1D92C9B11817B1D600FAE1A4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		1D92C9B61817B9CD00FAE1A4 /* NSScanner+MSLexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner+MSLexer.h"; sourceTree = "<group>"; };
 		1D92C9B71817B9CD00FAE1A4 /* NSScanner+MSLexer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScanner+MSLexer.m"; sourceTree = "<group>"; };
-		1DD2AC8D1815195E000E9A0D /* NSArray+MSOrderedCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MSOrderedCollection.h"; sourceTree = "<group>"; };
-		1DD2AC8E1815195E000E9A0D /* NSArray+MSOrderedCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MSOrderedCollection.m"; sourceTree = "<group>"; };
-		1DD2AC9318151A1C000E9A0D /* NSSet+MSUniqueCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+MSUniqueCollection.h"; sourceTree = "<group>"; };
-		1DD2AC9418151A1C000E9A0D /* NSSet+MSUniqueCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+MSUniqueCollection.m"; sourceTree = "<group>"; };
-		1DD2AC9918151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MSKeyValueCollection.h"; sourceTree = "<group>"; };
-		1DD2AC9A18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MSKeyValueCollection.m"; sourceTree = "<group>"; };
-		1DD2AC9F18151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+MSCollectionProtocols.h"; sourceTree = "<group>"; };
-		1DD2ACA018151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+MSCollectionProtocols.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -379,7 +355,6 @@
 				1D03B5DD17EA0B0B0067D035 /* NSData+MSTrivialCryptography.m */,
 				1D4A9DDC17BE83D5002325B2 /* NSData+MSCompression.h */,
 				1D4A9DDD17BE83D5002325B2 /* NSData+MSCompression.m */,
-				1DD2AC8C1815192A000E9A0D /* Collection Protocols */,
 				1D4A9DD017BE6EC1002325B2 /* Objective-C LINQ */,
 				1D4BF08717A8FF30005080A2 /* Supporting Files */,
 			);
@@ -408,21 +383,6 @@
 			name = Makefiles;
 			sourceTree = "<group>";
 		};
-		1DD2AC8C1815192A000E9A0D /* Collection Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				1DD2AC8D1815195E000E9A0D /* NSArray+MSOrderedCollection.h */,
-				1DD2AC8E1815195E000E9A0D /* NSArray+MSOrderedCollection.m */,
-				1DD2AC9318151A1C000E9A0D /* NSSet+MSUniqueCollection.h */,
-				1DD2AC9418151A1C000E9A0D /* NSSet+MSUniqueCollection.m */,
-				1DD2AC9918151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.h */,
-				1DD2AC9A18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.m */,
-				1DD2AC9F18151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.h */,
-				1DD2ACA018151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.m */,
-			);
-			name = "Collection Protocols";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -434,13 +394,9 @@
 				1D4A9DDE17BE83D5002325B2 /* NSData+MSCompression.h in Headers */,
 				1D278D3A17EC6EEA00FBDA36 /* NSData+MSCryptor.h in Headers */,
 				1D4A9DC617BE6EB9002325B2 /* NSArray+LinqExtensions.h in Headers */,
-				1DD2AC9518151A1C000E9A0D /* NSSet+MSUniqueCollection.h in Headers */,
-				1DD2ACA118151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.h in Headers */,
-				1DD2AC9B18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.h in Headers */,
 				1D4A9DCA17BE6EB9002325B2 /* NSDictionary+LinqExtensions.h in Headers */,
 				1D4BF0B617A8FFA8005080A2 /* MSStringManipulation.h in Headers */,
 				1D4BF0B917A8FFDF005080A2 /* MSCommon.h in Headers */,
-				1DD2AC8F1815195E000E9A0D /* NSArray+MSOrderedCollection.h in Headers */,
 				1D4BF0BF17A90653005080A2 /* MSBooster_Private.h in Headers */,
 				1D4A9DD317BE7626002325B2 /* NSData+MSHashing.h in Headers */,
 				1D92C9B81817B9CD00FAE1A4 /* NSScanner+MSLexer.h in Headers */,
@@ -459,13 +415,9 @@
 				1D4A9DC717BE6EB9002325B2 /* NSArray+LinqExtensions.h in Headers */,
 				1D278D3C17EC6F7300FBDA36 /* NSData+MSCryptor.h in Headers */,
 				1D4A9DCB17BE6EB9002325B2 /* NSDictionary+LinqExtensions.h in Headers */,
-				1DD2AC9618151A1C000E9A0D /* NSSet+MSUniqueCollection.h in Headers */,
-				1DD2ACA218151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.h in Headers */,
-				1DD2AC9C18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.h in Headers */,
 				1D5CBA2A17BD4910009D58E2 /* MSCommon.h in Headers */,
 				1D5CBA2B17BD4910009D58E2 /* MSOCCompatibility.h in Headers */,
 				1D03B5E417EA17060067D035 /* NSData+MSHMAC.h in Headers */,
-				1DD2AC901815195E000E9A0D /* NSArray+MSOrderedCollection.h in Headers */,
 				1D5CBA2817BD4910009D58E2 /* MSBooster.h in Headers */,
 				1D4A9DD417BE7626002325B2 /* NSData+MSHashing.h in Headers */,
 				1D92C9B91817B9CD00FAE1A4 /* NSScanner+MSLexer.h in Headers */,
@@ -524,6 +476,7 @@
 				1D4BF07A17A8FF30005080A2 /* Headers */,
 				1D4BF0BC17A905E4005080A2 /* CopyFiles */,
 				1D4BF07B17A8FF30005080A2 /* Resources */,
+				1DE2622B1834B04B0087FC11 /* Generate Documentation */,
 			);
 			buildRules = (
 			);
@@ -661,6 +614,20 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
 		};
+		1DE2622B1834B04B0087FC11 /* Generate Documentation */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Documentation";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"muski\";\ncompanyID=\"info.maxchan\";\ncompanyURL=\"http://www.maxchan.info\";\n#target=\"iphoneos\";\ntarget=\"macosx\";\noutputPath=\"~/appledoc\";\n# End constants\nmkdir -p outputPath\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -686,12 +653,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D4A9DE017BE83D5002325B2 /* NSData+MSCompression.m in Sources */,
-				1DD2ACA318151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.m in Sources */,
 				1D4A9DCC17BE6EB9002325B2 /* NSDictionary+LinqExtensions.m in Sources */,
 				1D4A9DD517BE7626002325B2 /* NSData+MSHashing.m in Sources */,
-				1DD2AC911815195E000E9A0D /* NSArray+MSOrderedCollection.m in Sources */,
-				1DD2AC9718151A1C000E9A0D /* NSSet+MSUniqueCollection.m in Sources */,
-				1DD2AC9D18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.m in Sources */,
 				1D92C9BA1817B9CD00FAE1A4 /* NSScanner+MSLexer.m in Sources */,
 				1D4A9DC817BE6EB9002325B2 /* NSArray+LinqExtensions.m in Sources */,
 				1D03B5DF17EA0B0B0067D035 /* NSData+MSTrivialCryptography.m in Sources */,
@@ -710,12 +673,8 @@
 				1D4A9DD617BE7626002325B2 /* NSData+MSHashing.m in Sources */,
 				1D4A9DC917BE6EB9002325B2 /* NSArray+LinqExtensions.m in Sources */,
 				1D92C9BB1817B9CD00FAE1A4 /* NSScanner+MSLexer.m in Sources */,
-				1DD2AC921815195E000E9A0D /* NSArray+MSOrderedCollection.m in Sources */,
-				1DD2AC9818151A1C000E9A0D /* NSSet+MSUniqueCollection.m in Sources */,
-				1DD2ACA418151B90000E9A0D /* NSOrderedSet+MSCollectionProtocols.m in Sources */,
 				1D03B5FD17EA1E080067D035 /* NSData+MSTrivialCryptography.m in Sources */,
 				1D5CBA2E17BD4910009D58E2 /* MSStringManipulation.m in Sources */,
-				1DD2AC9E18151AB6000E9A0D /* NSDictionary+MSKeyValueCollection.m in Sources */,
 				1D03B5FE17EA1E0D0067D035 /* NSData+MSHMAC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

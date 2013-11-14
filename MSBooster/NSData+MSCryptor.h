@@ -16,6 +16,9 @@
 
 @end
 
+/**
+ Encryption for NSData
+ */
 @interface NSData (MSCryptor)
 
 /**
@@ -38,6 +41,9 @@
 
 @end
 
+/**
+ Encryption container for NSData
+ */
 @interface NSData (MSCryptorContainer)
 
 /**

@@ -9,14 +9,27 @@
 #import <Foundation/Foundation.h>
 #import <MSBooster/MSCommon.h>
 
+/**
+ Level of compression.
+ */
 typedef NS_ENUM(NSInteger, MSCompressionLevel)
 {
+    /// No compression.
     MSCompressionLevelNoCompression = 0,
+    
+    /// Fastest compression.
     MSCompressionLevelBestSpeed = 1,
+    
+    /// Smallest compression.
     MSCompressionLevelBestSize = 9,
+    
+    /// Default compression ratio.
     MSCompressionLevelDefault = -1
 };
 
+/**
+ Compression for NSData
+ */
 @interface NSData (MSCompression)
 
 /// DEFLATE compressing using default compression level.

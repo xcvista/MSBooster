@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ Hashing for NSData
+ */
 @interface NSData (MSHashing)
 
 /**
