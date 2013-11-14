@@ -108,13 +108,13 @@
 		};
 		1D4BF0BC17A905E4005080A2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "";
 			dstSubfolderSpec = 1;
 			files = (
 				1D4BF0BD17A905F1005080A2 /* module.map in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1D92C9B41817B2C200FAE1A4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -840,7 +840,7 @@
 		1D4BF0A617A8FF30005080A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer: Beizong Chen (Z62GS3MMXY)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -856,7 +856,7 @@
 		1D4BF0A717A8FF30005080A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer: Beizong Chen (Z62GS3MMXY)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
