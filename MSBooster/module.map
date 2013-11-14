@@ -7,27 +7,38 @@ framework module MSBooster {
         requires objc
     }
     
-    module NSDataHashing
+    module MSSecurity
     {
-        header "NSData+MSHashing.h"
-        requires objc
+
+        module NSDataHashing
+        {
+            header "NSData+MSHashing.h"
+            requires objc
+        }
+
+        module NSDataHMAC
+        {
+            header "NSData+MSHMAC.h"
+            requires objc
+        }
+
+        module NSDataCryptor
+        {
+            header "NSData+MSCryptor.h"
+            requires objc
+        }
+
+        module NSDataTrivialCryptography
+        {
+            header "NSData+MSTrivialCryptography.h"
+            requires objc
+        }
+
     }
     
-    module NSDataHMAC
+    module NSDataCompression
     {
-        header "NSData+MSHMAC.h"
-        requires objc
-    }
-    
-    module NSDataCryptor
-    {
-        header "NSData+MSCryptor.h"
-        requires objc
-    }
-    
-    module NSDataTrivialCryptography
-    {
-        header "NSData+MSTrivialCryptography.h"
+        header "NSData+MSCompression.h"
         requires objc
     }
     
