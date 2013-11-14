@@ -72,8 +72,6 @@
 		1D92C9B51817B2CC00FAE1A4 /* module.map in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1D4BF0BA17A9051B005080A2 /* module.map */; };
 		1D92C9B81817B9CD00FAE1A4 /* NSScanner+MSLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D92C9B61817B9CD00FAE1A4 /* NSScanner+MSLexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D92C9B91817B9CD00FAE1A4 /* NSScanner+MSLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D92C9B61817B9CD00FAE1A4 /* NSScanner+MSLexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D92C9BA1817B9CD00FAE1A4 /* NSScanner+MSLexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D92C9B71817B9CD00FAE1A4 /* NSScanner+MSLexer.m */; };
-		1D92C9BB1817B9CD00FAE1A4 /* NSScanner+MSLexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D92C9B71817B9CD00FAE1A4 /* NSScanner+MSLexer.m */; };
 		1DD48BFC17ECB50400852874 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4A9DDA17BE8304002325B2 /* libcrypto.dylib */; };
 /* End PBXBuildFile section */
 
@@ -187,7 +185,6 @@
 		1D92C9AF1817B1BE00FAE1A4 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
 		1D92C9B11817B1D600FAE1A4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		1D92C9B61817B9CD00FAE1A4 /* NSScanner+MSLexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner+MSLexer.h"; sourceTree = "<group>"; };
-		1D92C9B71817B9CD00FAE1A4 /* NSScanner+MSLexer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScanner+MSLexer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,7 +341,6 @@
 				1D4BF0B417A8FFA8005080A2 /* MSStringManipulation.h */,
 				1D4BF0B517A8FFA8005080A2 /* MSStringManipulation.m */,
 				1D92C9B61817B9CD00FAE1A4 /* NSScanner+MSLexer.h */,
-				1D92C9B71817B9CD00FAE1A4 /* NSScanner+MSLexer.m */,
 				1D4A9DD117BE7626002325B2 /* NSData+MSHashing.h */,
 				1D4A9DD217BE7626002325B2 /* NSData+MSHashing.m */,
 				1D03B5E017EA0E830067D035 /* NSData+MSHMAC.h */,
@@ -626,7 +622,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"muski\";\ncompanyID=\"info.maxchan\";\ncompanyURL=\"http://www.maxchan.info\";\n#target=\"iphoneos\";\ntarget=\"macosx\";\noutputPath=\"~/appledoc\";\n# End constants\nmkdir -p outputPath\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"muski\";\ncompanyID=\"info.maxchan\";\ncompanyURL=\"http://www.maxchan.info\";\n#target=\"iphoneos\";\ntarget=\"macosx\";\noutputPath=\"~/appledoc\";\n# End constants\nmkdir -p outputPath\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n--ignore \"${PROJECT_DIR}/Frameworks\" \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--search-undocumented-doc \\\n$(find \"${PROJECT_DIR}/${TARGET_NAME}\" | grep \"\\.h\")";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -655,7 +651,6 @@
 				1D4A9DE017BE83D5002325B2 /* NSData+MSCompression.m in Sources */,
 				1D4A9DCC17BE6EB9002325B2 /* NSDictionary+LinqExtensions.m in Sources */,
 				1D4A9DD517BE7626002325B2 /* NSData+MSHashing.m in Sources */,
-				1D92C9BA1817B9CD00FAE1A4 /* NSScanner+MSLexer.m in Sources */,
 				1D4A9DC817BE6EB9002325B2 /* NSArray+LinqExtensions.m in Sources */,
 				1D03B5DF17EA0B0B0067D035 /* NSData+MSTrivialCryptography.m in Sources */,
 				1D4BF0B717A8FFA8005080A2 /* MSStringManipulation.m in Sources */,
@@ -672,7 +667,6 @@
 				1D4A9DCD17BE6EB9002325B2 /* NSDictionary+LinqExtensions.m in Sources */,
 				1D4A9DD617BE7626002325B2 /* NSData+MSHashing.m in Sources */,
 				1D4A9DC917BE6EB9002325B2 /* NSArray+LinqExtensions.m in Sources */,
-				1D92C9BB1817B9CD00FAE1A4 /* NSScanner+MSLexer.m in Sources */,
 				1D03B5FD17EA1E080067D035 /* NSData+MSTrivialCryptography.m in Sources */,
 				1D5CBA2E17BD4910009D58E2 /* MSStringManipulation.m in Sources */,
 				1D03B5FE17EA1E0D0067D035 /* NSData+MSHMAC.m in Sources */,
