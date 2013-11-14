@@ -31,7 +31,7 @@ typedef id (^MSLINQAccumulator)(id item, id aggregate);
 
 /** Projects each element of a sequence into a new form.
  
- @param selector A transform function to apply to each element.
+ @param transform A transform function to apply to each element.
  @return An array whose elements are the result of invoking the transform function on each element of source.
  */
 - (NSArray*) select:(MSLINQSelector)transform;

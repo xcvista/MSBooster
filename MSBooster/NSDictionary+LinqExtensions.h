@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/// LINQ Key-Value Selector
 typedef id (^MSLINQKeyValueSelector)(id key, id value);
 
+/// LINQ Key-Value Condition
 typedef BOOL (^MSLINQKeyValueCondition)(id key, id value);
 
 /**

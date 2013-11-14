@@ -10,6 +10,9 @@
 
 @protocol MSCryptorDelegate;
 
+/**
+ Trivial encryption for NSData
+ */
 @interface NSData (MSTrivialCryptography)
 
 /**

@@ -8,14 +8,30 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ Delegate of a cryptor.
+ */
 @protocol MSCryptorDelegate <NSObject>
 
+/// @name   Progress reporting
+
 @optional
+
+/**
+ Called by a cryptor to tell the progress.
+ 
+ @param     data        Data being processed.
+ @param     cryptor     Cryptor selector being used.
+ @param     bytes       Number of bytes processed.
+ */
 - (void)data:(NSData *)data
      cryptor:(SEL)cryptor didProcessBytes:(NSUInteger)bytes;
 
 @end
 
+/**
+ Encryption for NSData
+ */
 @interface NSData (MSCryptor)
 
 /**
@@ -38,6 +54,9 @@
 
 @end
 
+/**
+ Encryption container for NSData
+ */
 @interface NSData (MSCryptorContainer)
 
 /**
