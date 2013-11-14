@@ -1,6 +1,53 @@
 framework module MSBooster {
     umbrella header "MSBooster.h"
     
+    module NSScannerLexing
+    {
+        header "NSScanner+MSLexer.h"
+        requires objc
+    }
+    
+    module NSDataHashing
+    {
+        header "NSData+MSHashing.h"
+        requires objc
+    }
+    
+    module NSDataHMAC
+    {
+        header "NSData+MSHMAC.h"
+        requires objc
+    }
+    
+    module NSDataCryptor
+    {
+        header "NSData+MSCryptor.h"
+        requires objc
+    }
+    
+    module NSDataTrivialCryptography
+    {
+        header "NSData+MSTrivialCryptography.h"
+        requires objc
+    }
+    
+    module MSLINQ
+    {
+        module NSArrayLINQ
+        {
+            header "NSArray+LinqExtensions.h"
+            requires objc, blocks
+        }
+        
+        module NSDictionaryLINQ
+        {
+            header "NSDictionary+LinqExtensions.h"
+            requires objc, blocks
+        }
+        
+        requires objc, blocks
+    }
+
     export *
     module * {
         export *
