@@ -53,7 +53,7 @@
         
 #ifdef USE_CC
         if (CCCrypt(kCCEncrypt,
-                    kCCAlgorithmAES,
+                    kCCAlgorithmAES128,
                     0,
                     [hkey bytes],
                     [hkey length],
@@ -101,7 +101,7 @@
         
 #ifdef USE_CC
         if (CCCrypt(kCCDecrypt,
-                    kCCAlgorithmAES,
+                    kCCAlgorithmAES128,
                     0,
                     [hkey bytes],
                     [hkey length],
