@@ -842,7 +842,6 @@
 		1D4BF0A617A8FF30005080A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -850,7 +849,6 @@
 				INFOPLIST_FILE = "MSBooster/MSBooster-Info.plist";
 				INSTALL_PATH = "@rpath";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6CF3DC33-4E91-4D75-BF1C-21896BD3130A";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -859,7 +857,6 @@
 		1D4BF0A717A8FF30005080A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -867,7 +864,6 @@
 				INFOPLIST_FILE = "MSBooster/MSBooster-Info.plist";
 				INSTALL_PATH = "@rpath";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6CF3DC33-4E91-4D75-BF1C-21896BD3130A";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
