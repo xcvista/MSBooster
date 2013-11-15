@@ -185,6 +185,7 @@
 		1D92C9AF1817B1BE00FAE1A4 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
 		1D92C9B11817B1D600FAE1A4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		1D92C9B61817B9CD00FAE1A4 /* NSScanner+MSLexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner+MSLexer.h"; sourceTree = "<group>"; };
+		1D9CE7F31835E7B3007B7D74 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +283,7 @@
 		1D4BF07317A8FF30005080A2 = {
 			isa = PBXGroup;
 			children = (
+				1D9CE7F31835E7B3007B7D74 /* .travis.yml */,
 				1D92C9AF1817B1BE00FAE1A4 /* LICENSE.md */,
 				1D92C9B11817B1D600FAE1A4 /* README.md */,
 				1D92C9A81817B0E800FAE1A4 /* Makefiles */,
