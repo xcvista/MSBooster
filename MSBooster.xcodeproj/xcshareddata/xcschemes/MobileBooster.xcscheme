@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D5CBA1A17BD4900009D58E2"
-               BuildableName = "MSBooster.framework"
+               BlueprintIdentifier = "1DBBE16E184F4C0000E767CE"
+               BuildableName = "MobileBooster.framework"
                BlueprintName = "MobileBooster"
                ReferencedContainer = "container:MSBooster.xcodeproj">
             </BuildableReference>
