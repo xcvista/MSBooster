@@ -60,6 +60,15 @@ framework module MSBooster {
         
         requires objc, blocks
     }
+    
+    module CGIJSONObjects
+    {
+        header "NSData+CGIJSONSerializable.h"
+        header "NSDate+CGIJSONSerializable.h"
+        header "NSArray+CGIJSONSerializable.h"
+        header "NSObject+CGIJSONSerializable.h"
+        header "NSObject+CGIJSONSerializing.h"
+    }
 
     export *
     module * {

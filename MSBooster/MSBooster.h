@@ -27,6 +27,13 @@
 #import <MSBooster/NSArray+LinqExtensions.h>
 #import <MSBooster/NSDictionary+LinqExtensions.h>
 
+#import <MSBooster/NSObject+CGIJSONSerializable.h>
+#import <MSBooster/NSObject+CGIJSONSerializing.h>
+
+#import <MSBooster/NSArray+CGIJSONSerializable.h>
+#import <MSBooster/NSData+CGIJSONSerializable.h>
+#import <MSBooster/NSDate+CGIJSONSerializable.h>
+
 #endif
 
 #endif

@@ -44,6 +44,44 @@
 		1D4BF0C017A90658005080A2 /* MSBooster.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4BF08D17A8FF30005080A2 /* MSBooster.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D4BF0C317A90712005080A2 /* MSOCCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4BF0C217A90712005080A2 /* MSOCCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D4BF0C517A9165F005080A2 /* MSStringConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4BF0C417A9165F005080A2 /* MSStringConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6E488D189FBEAD0026605D /* NSArray+CGIJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6E487E189FBEAD0026605D /* NSArray+CGIJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6E488E189FBEAD0026605D /* NSArray+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E487F189FBEAD0026605D /* NSArray+CGIJSONSerializable.m */; };
+		1D6E488F189FBEAD0026605D /* NSData+CGIJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6E4880189FBEAD0026605D /* NSData+CGIJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6E4890189FBEAD0026605D /* NSData+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E4881189FBEAD0026605D /* NSData+CGIJSONSerializable.m */; };
+		1D6E4891189FBEAD0026605D /* NSDate+CGIJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6E4882189FBEAD0026605D /* NSDate+CGIJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6E4892189FBEAD0026605D /* NSDate+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E4883189FBEAD0026605D /* NSDate+CGIJSONSerializable.m */; };
+		1D6E4893189FBEAD0026605D /* NSDictionary+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E4884189FBEAD0026605D /* NSDictionary+CGIJSONSerializable.m */; };
+		1D6E4894189FBEAD0026605D /* NSNull+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E4885189FBEAD0026605D /* NSNull+CGIJSONSerializable.m */; };
+		1D6E4895189FBEAD0026605D /* NSNumber+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E4886189FBEAD0026605D /* NSNumber+CGIJSONSerializable.m */; };
+		1D6E4896189FBEAD0026605D /* NSObject+CGIJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6E4887189FBEAD0026605D /* NSObject+CGIJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6E4897189FBEAD0026605D /* NSObject+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E4888189FBEAD0026605D /* NSObject+CGIJSONSerializable.m */; };
+		1D6E4898189FBEAD0026605D /* NSObject+CGIJSONSerializing.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6E4889189FBEAD0026605D /* NSObject+CGIJSONSerializing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6E4899189FBEAD0026605D /* NSObject+CGIJSONSerializing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E488A189FBEAD0026605D /* NSObject+CGIJSONSerializing.m */; };
+		1D6E489A189FBEAD0026605D /* NSString+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E488B189FBEAD0026605D /* NSString+CGIJSONSerializable.m */; };
+		1D6E489B189FBEAD0026605D /* NSValue+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E488C189FBEAD0026605D /* NSValue+CGIJSONSerializable.m */; };
+		1D6E48A6189FC0380026605D /* CGINSArraySerializing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E489C189FC0380026605D /* CGINSArraySerializing.m */; };
+		1D6E48A7189FC0380026605D /* CGINSDateDecodingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E489D189FC0380026605D /* CGINSDateDecodingTest.m */; };
+		1D6E48A8189FC0380026605D /* CGINSMutableArraySerializing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E489E189FC0380026605D /* CGINSMutableArraySerializing.m */; };
+		1D6E48A9189FC0380026605D /* CGINSObjectClassSensing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E489F189FC0380026605D /* CGINSObjectClassSensing.m */; };
+		1D6E48AA189FC0380026605D /* CGINSObjectKeySubstitution.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E48A0189FC0380026605D /* CGINSObjectKeySubstitution.m */; };
+		1D6E48AB189FC0380026605D /* CGINSObjectSerializing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E48A1189FC0380026605D /* CGINSObjectSerializing.m */; };
+		1D6E48AC189FC0380026605D /* CGISingleElementClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E48A3189FC0380026605D /* CGISingleElementClass.m */; };
+		1D6E48AD189FC0380026605D /* CGITestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E48A5189FC0380026605D /* CGITestClass.m */; };
+		1D6E48AE189FC12E0026605D /* NSArray+CGIJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6E487E189FBEAD0026605D /* NSArray+CGIJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6E48AF189FC12E0026605D /* NSArray+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E487F189FBEAD0026605D /* NSArray+CGIJSONSerializable.m */; };
+		1D6E48B0189FC12E0026605D /* NSData+CGIJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6E4880189FBEAD0026605D /* NSData+CGIJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6E48B1189FC12E0026605D /* NSData+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E4881189FBEAD0026605D /* NSData+CGIJSONSerializable.m */; };
+		1D6E48B2189FC12E0026605D /* NSDate+CGIJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6E4882189FBEAD0026605D /* NSDate+CGIJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6E48B3189FC12E0026605D /* NSDate+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E4883189FBEAD0026605D /* NSDate+CGIJSONSerializable.m */; };
+		1D6E48B4189FC12E0026605D /* NSDictionary+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E4884189FBEAD0026605D /* NSDictionary+CGIJSONSerializable.m */; };
+		1D6E48B5189FC12E0026605D /* NSNull+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E4885189FBEAD0026605D /* NSNull+CGIJSONSerializable.m */; };
+		1D6E48B6189FC12E0026605D /* NSNumber+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E4886189FBEAD0026605D /* NSNumber+CGIJSONSerializable.m */; };
+		1D6E48B7189FC12E0026605D /* NSObject+CGIJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6E4887189FBEAD0026605D /* NSObject+CGIJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6E48B8189FC12E0026605D /* NSObject+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E4888189FBEAD0026605D /* NSObject+CGIJSONSerializable.m */; };
+		1D6E48B9189FC12E0026605D /* NSObject+CGIJSONSerializing.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6E4889189FBEAD0026605D /* NSObject+CGIJSONSerializing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6E48BA189FC12E0026605D /* NSObject+CGIJSONSerializing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E488A189FBEAD0026605D /* NSObject+CGIJSONSerializing.m */; };
+		1D6E48BB189FC12E0026605D /* NSString+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E488B189FBEAD0026605D /* NSString+CGIJSONSerializable.m */; };
+		1D6E48BC189FC12E0026605D /* NSValue+CGIJSONSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E488C189FBEAD0026605D /* NSValue+CGIJSONSerializable.m */; };
 		1D92C9B81817B9CD00FAE1A4 /* NSScanner+MSLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D92C9B61817B9CD00FAE1A4 /* NSScanner+MSLexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DBBE170184F4C0000E767CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5CBA1C17BD4900009D58E2 /* Foundation.framework */; };
 		1DBBE197184F4C3D00E767CE /* MSBooster.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4BF08D17A8FF30005080A2 /* MSBooster.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -175,6 +213,31 @@
 		1D5CBA1C17BD4900009D58E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D61211217BA06FD00C2AD14 /* GNUmakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = GNUmakefile; sourceTree = "<group>"; };
 		1D61211317BA073200C2AD14 /* GNUmakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = GNUmakefile; sourceTree = "<group>"; };
+		1D6E487E189FBEAD0026605D /* NSArray+CGIJSONSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CGIJSONSerializable.h"; sourceTree = "<group>"; };
+		1D6E487F189FBEAD0026605D /* NSArray+CGIJSONSerializable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CGIJSONSerializable.m"; sourceTree = "<group>"; };
+		1D6E4880189FBEAD0026605D /* NSData+CGIJSONSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CGIJSONSerializable.h"; sourceTree = "<group>"; };
+		1D6E4881189FBEAD0026605D /* NSData+CGIJSONSerializable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CGIJSONSerializable.m"; sourceTree = "<group>"; };
+		1D6E4882189FBEAD0026605D /* NSDate+CGIJSONSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CGIJSONSerializable.h"; sourceTree = "<group>"; };
+		1D6E4883189FBEAD0026605D /* NSDate+CGIJSONSerializable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CGIJSONSerializable.m"; sourceTree = "<group>"; };
+		1D6E4884189FBEAD0026605D /* NSDictionary+CGIJSONSerializable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CGIJSONSerializable.m"; sourceTree = "<group>"; };
+		1D6E4885189FBEAD0026605D /* NSNull+CGIJSONSerializable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+CGIJSONSerializable.m"; sourceTree = "<group>"; };
+		1D6E4886189FBEAD0026605D /* NSNumber+CGIJSONSerializable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CGIJSONSerializable.m"; sourceTree = "<group>"; };
+		1D6E4887189FBEAD0026605D /* NSObject+CGIJSONSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CGIJSONSerializable.h"; sourceTree = "<group>"; };
+		1D6E4888189FBEAD0026605D /* NSObject+CGIJSONSerializable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CGIJSONSerializable.m"; sourceTree = "<group>"; };
+		1D6E4889189FBEAD0026605D /* NSObject+CGIJSONSerializing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CGIJSONSerializing.h"; sourceTree = "<group>"; };
+		1D6E488A189FBEAD0026605D /* NSObject+CGIJSONSerializing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CGIJSONSerializing.m"; sourceTree = "<group>"; };
+		1D6E488B189FBEAD0026605D /* NSString+CGIJSONSerializable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CGIJSONSerializable.m"; sourceTree = "<group>"; };
+		1D6E488C189FBEAD0026605D /* NSValue+CGIJSONSerializable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+CGIJSONSerializable.m"; sourceTree = "<group>"; };
+		1D6E489C189FC0380026605D /* CGINSArraySerializing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGINSArraySerializing.m; sourceTree = "<group>"; };
+		1D6E489D189FC0380026605D /* CGINSDateDecodingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGINSDateDecodingTest.m; sourceTree = "<group>"; };
+		1D6E489E189FC0380026605D /* CGINSMutableArraySerializing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGINSMutableArraySerializing.m; sourceTree = "<group>"; };
+		1D6E489F189FC0380026605D /* CGINSObjectClassSensing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGINSObjectClassSensing.m; sourceTree = "<group>"; };
+		1D6E48A0189FC0380026605D /* CGINSObjectKeySubstitution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGINSObjectKeySubstitution.m; sourceTree = "<group>"; };
+		1D6E48A1189FC0380026605D /* CGINSObjectSerializing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGINSObjectSerializing.m; sourceTree = "<group>"; };
+		1D6E48A2189FC0380026605D /* CGISingleElementClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGISingleElementClass.h; sourceTree = "<group>"; };
+		1D6E48A3189FC0380026605D /* CGISingleElementClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGISingleElementClass.m; sourceTree = "<group>"; };
+		1D6E48A4189FC0380026605D /* CGITestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGITestClass.h; sourceTree = "<group>"; };
+		1D6E48A5189FC0380026605D /* CGITestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGITestClass.m; sourceTree = "<group>"; };
 		1D92C9A91817B10000FAE1A4 /* framework.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = framework.make; sourceTree = "<group>"; };
 		1D92C9AA1817B10000FAE1A4 /* GNUstep.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUstep.make; sourceTree = "<group>"; };
 		1D92C9AB1817B10000FAE1A4 /* tool.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tool.make; sourceTree = "<group>"; };
@@ -234,6 +297,16 @@
 				1D03B5EE17EA1C060067D035 /* Supporting Files */,
 				1D278D2717EB099800FBDA36 /* MSDataEncryptionTest.h */,
 				1D03B5FB17EA1C450067D035 /* MSDataEncryptionTest.m */,
+				1D6E489C189FC0380026605D /* CGINSArraySerializing.m */,
+				1D6E489D189FC0380026605D /* CGINSDateDecodingTest.m */,
+				1D6E489E189FC0380026605D /* CGINSMutableArraySerializing.m */,
+				1D6E489F189FC0380026605D /* CGINSObjectClassSensing.m */,
+				1D6E48A0189FC0380026605D /* CGINSObjectKeySubstitution.m */,
+				1D6E48A1189FC0380026605D /* CGINSObjectSerializing.m */,
+				1D6E48A2189FC0380026605D /* CGISingleElementClass.h */,
+				1D6E48A3189FC0380026605D /* CGISingleElementClass.m */,
+				1D6E48A4189FC0380026605D /* CGITestClass.h */,
+				1D6E48A5189FC0380026605D /* CGITestClass.m */,
 			);
 			path = "MSBooster Tests";
 			sourceTree = "<group>";
@@ -352,6 +425,21 @@
 				1D03B5DD17EA0B0B0067D035 /* NSData+MSTrivialCryptography.m */,
 				1D4A9DDC17BE83D5002325B2 /* NSData+MSCompression.h */,
 				1D4A9DDD17BE83D5002325B2 /* NSData+MSCompression.m */,
+				1D6E487E189FBEAD0026605D /* NSArray+CGIJSONSerializable.h */,
+				1D6E487F189FBEAD0026605D /* NSArray+CGIJSONSerializable.m */,
+				1D6E4880189FBEAD0026605D /* NSData+CGIJSONSerializable.h */,
+				1D6E4881189FBEAD0026605D /* NSData+CGIJSONSerializable.m */,
+				1D6E4882189FBEAD0026605D /* NSDate+CGIJSONSerializable.h */,
+				1D6E4883189FBEAD0026605D /* NSDate+CGIJSONSerializable.m */,
+				1D6E4884189FBEAD0026605D /* NSDictionary+CGIJSONSerializable.m */,
+				1D6E4885189FBEAD0026605D /* NSNull+CGIJSONSerializable.m */,
+				1D6E4886189FBEAD0026605D /* NSNumber+CGIJSONSerializable.m */,
+				1D6E4887189FBEAD0026605D /* NSObject+CGIJSONSerializable.h */,
+				1D6E4888189FBEAD0026605D /* NSObject+CGIJSONSerializable.m */,
+				1D6E4889189FBEAD0026605D /* NSObject+CGIJSONSerializing.h */,
+				1D6E488A189FBEAD0026605D /* NSObject+CGIJSONSerializing.m */,
+				1D6E488B189FBEAD0026605D /* NSString+CGIJSONSerializable.m */,
+				1D6E488C189FBEAD0026605D /* NSValue+CGIJSONSerializable.m */,
 				1D4A9DD017BE6EC1002325B2 /* Objective-C LINQ */,
 				1D4BF08717A8FF30005080A2 /* Supporting Files */,
 			);
@@ -389,6 +477,7 @@
 			files = (
 				1D03B5DE17EA0B0B0067D035 /* NSData+MSTrivialCryptography.h in Headers */,
 				1D4A9DDE17BE83D5002325B2 /* NSData+MSCompression.h in Headers */,
+				1D6E4898189FBEAD0026605D /* NSObject+CGIJSONSerializing.h in Headers */,
 				1D278D3A17EC6EEA00FBDA36 /* NSData+MSCryptor.h in Headers */,
 				1D4A9DC617BE6EB9002325B2 /* NSArray+LinqExtensions.h in Headers */,
 				1D4A9DCA17BE6EB9002325B2 /* NSDictionary+LinqExtensions.h in Headers */,
@@ -397,7 +486,11 @@
 				1D4BF0BF17A90653005080A2 /* MSBooster_Private.h in Headers */,
 				1D4A9DD317BE7626002325B2 /* NSData+MSHashing.h in Headers */,
 				1D92C9B81817B9CD00FAE1A4 /* NSScanner+MSLexer.h in Headers */,
+				1D6E488D189FBEAD0026605D /* NSArray+CGIJSONSerializable.h in Headers */,
+				1D6E4896189FBEAD0026605D /* NSObject+CGIJSONSerializable.h in Headers */,
 				1D03B5E217EA0E830067D035 /* NSData+MSHMAC.h in Headers */,
+				1D6E488F189FBEAD0026605D /* NSData+CGIJSONSerializable.h in Headers */,
+				1D6E4891189FBEAD0026605D /* NSDate+CGIJSONSerializable.h in Headers */,
 				1D4BF0C517A9165F005080A2 /* MSStringConstant.h in Headers */,
 				1D4BF0C317A90712005080A2 /* MSOCCompatibility.h in Headers */,
 				1D4BF0C017A90658005080A2 /* MSBooster.h in Headers */,
@@ -410,6 +503,7 @@
 			files = (
 				1DBBE1A7184F4C3D00E767CE /* NSData+MSCompression.h in Headers */,
 				1DBBE1A5184F4C3D00E767CE /* NSData+MSTrivialCryptography.h in Headers */,
+				1D6E48B9189FC12E0026605D /* NSObject+CGIJSONSerializing.h in Headers */,
 				1DBBE19F184F4C3D00E767CE /* NSData+MSHashing.h in Headers */,
 				1DBBE19E184F4C3D00E767CE /* NSScanner+MSLexer.h in Headers */,
 				1DBBE1A1184F4C3D00E767CE /* NSData+MSHMAC.h in Headers */,
@@ -418,7 +512,11 @@
 				1DBBE1A3184F4C3D00E767CE /* NSData+MSCryptor.h in Headers */,
 				1DBBE197184F4C3D00E767CE /* MSBooster.h in Headers */,
 				1DBBE19B184F4C3D00E767CE /* MSStringConstant.h in Headers */,
+				1D6E48AE189FC12E0026605D /* NSArray+CGIJSONSerializable.h in Headers */,
+				1D6E48B7189FC12E0026605D /* NSObject+CGIJSONSerializable.h in Headers */,
 				1DBBE1A9184F4C5700E767CE /* NSArray+LinqExtensions.h in Headers */,
+				1D6E48B0189FC12E0026605D /* NSData+CGIJSONSerializable.h in Headers */,
+				1D6E48B2189FC12E0026605D /* NSDate+CGIJSONSerializable.h in Headers */,
 				1DBBE1AB184F4C5700E767CE /* NSDictionary+LinqExtensions.h in Headers */,
 				1DBBE19C184F4C3D00E767CE /* MSStringManipulation.h in Headers */,
 				1DBBE198184F4C3D00E767CE /* MSBooster_Private.h in Headers */,
@@ -600,7 +698,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D6E48A9189FC0380026605D /* CGINSObjectClassSensing.m in Sources */,
+				1D6E48A6189FC0380026605D /* CGINSArraySerializing.m in Sources */,
+				1D6E48AA189FC0380026605D /* CGINSObjectKeySubstitution.m in Sources */,
 				1D03B5FC17EA1C450067D035 /* MSDataEncryptionTest.m in Sources */,
+				1D6E48A7189FC0380026605D /* CGINSDateDecodingTest.m in Sources */,
+				1D6E48AB189FC0380026605D /* CGINSObjectSerializing.m in Sources */,
+				1D6E48A8189FC0380026605D /* CGINSMutableArraySerializing.m in Sources */,
+				1D6E48AD189FC0380026605D /* CGITestClass.m in Sources */,
+				1D6E48AC189FC0380026605D /* CGISingleElementClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,12 +724,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D4A9DE017BE83D5002325B2 /* NSData+MSCompression.m in Sources */,
+				1D6E4890189FBEAD0026605D /* NSData+CGIJSONSerializable.m in Sources */,
 				1D4A9DCC17BE6EB9002325B2 /* NSDictionary+LinqExtensions.m in Sources */,
+				1D6E4897189FBEAD0026605D /* NSObject+CGIJSONSerializable.m in Sources */,
 				1D4A9DD517BE7626002325B2 /* NSData+MSHashing.m in Sources */,
 				1D4A9DC817BE6EB9002325B2 /* NSArray+LinqExtensions.m in Sources */,
+				1D6E4892189FBEAD0026605D /* NSDate+CGIJSONSerializable.m in Sources */,
 				1D03B5DF17EA0B0B0067D035 /* NSData+MSTrivialCryptography.m in Sources */,
+				1D6E4893189FBEAD0026605D /* NSDictionary+CGIJSONSerializable.m in Sources */,
+				1D6E4899189FBEAD0026605D /* NSObject+CGIJSONSerializing.m in Sources */,
 				1D4BF0B717A8FFA8005080A2 /* MSStringManipulation.m in Sources */,
 				1D278D3B17EC6EEA00FBDA36 /* NSData+MSCryptor.m in Sources */,
+				1D6E4895189FBEAD0026605D /* NSNumber+CGIJSONSerializable.m in Sources */,
+				1D6E489B189FBEAD0026605D /* NSValue+CGIJSONSerializable.m in Sources */,
+				1D6E4894189FBEAD0026605D /* NSNull+CGIJSONSerializable.m in Sources */,
+				1D6E489A189FBEAD0026605D /* NSString+CGIJSONSerializable.m in Sources */,
+				1D6E488E189FBEAD0026605D /* NSArray+CGIJSONSerializable.m in Sources */,
 				1D03B5E317EA0E830067D035 /* NSData+MSHMAC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -633,12 +749,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DBBE19D184F4C3D00E767CE /* MSStringManipulation.m in Sources */,
+				1D6E48B1189FC12E0026605D /* NSData+CGIJSONSerializable.m in Sources */,
 				1DBBE1A8184F4C3D00E767CE /* NSData+MSCompression.m in Sources */,
+				1D6E48B8189FC12E0026605D /* NSObject+CGIJSONSerializable.m in Sources */,
 				1DBBE1A0184F4C3D00E767CE /* NSData+MSHashing.m in Sources */,
 				1DBBE1AA184F4C5700E767CE /* NSArray+LinqExtensions.m in Sources */,
+				1D6E48B3189FC12E0026605D /* NSDate+CGIJSONSerializable.m in Sources */,
 				1DBBE1A6184F4C3D00E767CE /* NSData+MSTrivialCryptography.m in Sources */,
+				1D6E48B4189FC12E0026605D /* NSDictionary+CGIJSONSerializable.m in Sources */,
+				1D6E48BA189FC12E0026605D /* NSObject+CGIJSONSerializing.m in Sources */,
 				1DBBE1A4184F4C3D00E767CE /* NSData+MSCryptor.m in Sources */,
 				1DBBE1AC184F4C5700E767CE /* NSDictionary+LinqExtensions.m in Sources */,
+				1D6E48B6189FC12E0026605D /* NSNumber+CGIJSONSerializable.m in Sources */,
+				1D6E48BC189FC12E0026605D /* NSValue+CGIJSONSerializable.m in Sources */,
+				1D6E48B5189FC12E0026605D /* NSNull+CGIJSONSerializable.m in Sources */,
+				1D6E48BB189FC12E0026605D /* NSString+CGIJSONSerializable.m in Sources */,
+				1D6E48AF189FC12E0026605D /* NSArray+CGIJSONSerializable.m in Sources */,
 				1DBBE1A2184F4C3D00E767CE /* NSData+MSHMAC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -922,6 +1048,7 @@
 				1DBBE193184F4C0000E767CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
